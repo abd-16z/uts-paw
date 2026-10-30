@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Ayam Betutu",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Bali",
+    "waktuMasak": 180,
+    "tingkatKesulitan": "Sulit"
+  },
+  {
+    "id": "2",
+    "judul": "Papeda",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Papua",
+    "waktuMasak": 30,
+    "tingkatKesulitan": "Mudah"
+  },
+  {
+    "id": "3",
+    "judul": "Konro",
+    "kategori": "Makanan Berkuah",
+    "daerahAsal": "Sulawesi Selatan",
+    "waktuMasak": 180,
+    "tingkatKesulitan": "Sulit"
+  },
+  {
+    "id": "4",
+    "judul": "Sop Buntut",
+    "kategori": "Makanan Berkuah",
+    "daerahAsal": "DKI Jakarta",
+    "waktuMasak": 150,
+    "tingkatKesulitan": "Sedang"
+  },
+  {
+    "id": "5",
+    "judul": "Pempek",
+    "kategori": "Makanan Ringan",
+    "daerahAsal": "Sumatera Selatan",
+    "waktuMasak": 60,
+    "tingkatKesulitan": "Sedang"
+  },
+  {
+    "id": "6",
+    "judul": "Batagor",
+    "kategori": "Makanan Ringan",
+    "daerahAsal": "Jawa Barat",
+    "waktuMasak": 45,
+    "tingkatKesulitan": "Mudah"
+  },
+  {
+    "id": "7",
+    "judul": "Klepon",
+    "kategori": "Makanan Penutup",
+    "daerahAsal": "Jawa Tengah",
+    "waktuMasak": 30,
+    "tingkatKesulitan": "Mudah"
+  },
+  {
+    "id": "8",
+    "judul": "Bika Ambon",
+    "kategori": "Makanan Penutup",
+    "daerahAsal": "Sumatera Utara",
+    "waktuMasak": 60,
+    "tingkatKesulitan": "Sedang"
+  },
+  {
+    "id": "9",
+    "judul": "Perkedel Kentang",
+    "kategori": "Lauk Pendamping",
+    "daerahAsal": "Jawa Tengah",
+    "waktuMasak": 40,
+    "tingkatKesulitan": "Mudah"
+  },
+  {
+    "id": "10",
+    "judul": "Sekoteng",
+    "kategori": "Minuman Tradisional",
+    "daerahAsal": "Jawa Tengah",
+    "waktuMasak": 25,
+    "tingkatKesulitan": "Mudah"
   }
 ]
