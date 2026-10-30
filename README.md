@@ -9,7 +9,7 @@ Nama: Abdul Aziz
 NIM: 124140151
 Kelas: RB
 Tema: Resep Masakan Nusantara
-Deployment: abd-16z.github.io/uts-paw/ 
+Deployment: https://abd-16z.github.io/uts-paw/ 
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
