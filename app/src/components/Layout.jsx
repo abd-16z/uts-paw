@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <div className="kerangka">
       <header className="kepala">
-        <strong>Daftar Resep Masakan Nusantara</strong>
+        <strong>Nusantara Recipes</strong>
         <Navigasi />
       </header>
       <main className="isi">

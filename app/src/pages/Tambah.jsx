@@ -27,7 +27,7 @@ export default function Tambah() {
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Tugas</h1>
+      <h1>Tambah Masakan</h1>
 
       <label htmlFor="judul">Judul</label>
       <input id="judul" name="judul" value={form.judul} onChange={ubah} />
