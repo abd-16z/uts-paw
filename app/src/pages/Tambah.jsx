@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Kuliah', tenggat: '', prioritas: 'sedang' }
+const AWAL = { judul: '', kategori: 'Makanan Utama', daerahAsal: '', waktuMasak: '', tingkatKesulitan: 'Sulit' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -35,18 +35,25 @@ export default function Tambah() {
 
       <label htmlFor="kategori">Kategori</label>
       <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
-        <option>Kuliah</option>
-        <option>Organisasi</option>
+        <option>Makanan Utama</option>
+        <option>Makanan Berkuah</option>
+        <option>Makanan Ringan</option>
+        <option>Makanan Penutup</option>
+        <option>Lauk Pendamping</option>
+        <option>Minuman Tradisional</option>
       </select>
 
-      <label htmlFor="tenggat">Tenggat</label>
-      <input id="tenggat" name="tenggat" type="date" value={form.tenggat} onChange={ubah} />
+      <label htmlFor="daerahAsal">Daerah Asal</label>
+      <input id="daerahAsal" name="daerahAsal" value={form.daerahAsal} onChange={ubah} />
 
-      <label htmlFor="prioritas">Prioritas</label>
-      <select id="prioritas" name="prioritas" value={form.prioritas} onChange={ubah}>
-        <option value="rendah">Rendah</option>
-        <option value="sedang">Sedang</option>
-        <option value="tinggi">Tinggi</option>
+      <label htmlFor="waktuMasak">Waktu Masak</label>
+      <input id="waktuMasak" name="waktuMasak" type="number" value={form.waktuMasak} onChange={ubah} />
+
+      <label htmlFor="tingkatKesulitan">Tingkat Kesulitan</label>
+      <select id="tingkatKesulitan" name="tingkatKesulitan" value={form.tingkatKesulitan} onChange={ubah}>
+        <option value="Mudah">Mudah</option>
+        <option value="Sedang">Sedang</option>
+        <option value="Sulit">Sulit</option>
       </select>
 
       <button type="submit">Simpan</button>
