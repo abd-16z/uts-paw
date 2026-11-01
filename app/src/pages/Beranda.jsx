@@ -19,7 +19,9 @@ export default function Beranda() {
           Ada {items.length} resep dalam {jumlahKategori} kategori.
         </p>
       )}
-      <Link to="/koleksi">Lihat semua resep</Link>
+      <Link to="/koleksi" className="tombol">
+        Lihat semua resep
+      </Link>
     </section>
   )
 }

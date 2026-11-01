@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background: #faf3e7;
+}
+
+#kepala-web {
+  background: #edebcd;
+  border-bottom: 3px solid #4a7c3f;
+}
+
+#kepala-web strong {
+  color: #2f5d2a;
+}
+
+#kaki-web {
+  background: #edebcd;
+  border-top: 3px solid #4a7c3f;
+}
+
+#kotak-cari {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+#kotak-cari:focus {
+  outline: none;
+  border-color: #4a7c3f;
+  box-shadow: 0 0 0 3px rgba(74, 124, 63, 0.18);
+}
+
+.menu a {
+  display: inline-block;  
+  padding: 0.35rem 0.85rem;
+  border-radius: 8px;
+  color: #3e2d20;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu a.active {
+  background: #4a7c3f;
+  color: #ffffff;
+}
+
+
+.tabel-data thead th {
+  background: #eaf2e2;
+  color: #2f4a2a;
+}
+
+
+a {
+  color: #2f5d2a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b45f1d;
+  text-decoration: none;
+}
+
+
+.tombol {
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  background: #4a7c3f;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.tombol:hover {
+  background: #3a6331;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.tombol-kembali {
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  background: #edebcd;
+  color: #2f5d2a;
+  font-weight: 600;
+}
+
+.tombol-kembali:hover {
+  background: #dcd6b3;
+  color: #2f5d2a;
+  text-decoration: none;
+}

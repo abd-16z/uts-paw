@@ -6,14 +6,14 @@ import Navigasi from './Navigasi.jsx'
 export default function Layout() {
   return (
     <div className="kerangka">
-      <header className="kepala">
+      <header id="kepala-web" className="kepala">
         <strong>Nusantara Recipes</strong>
         <Navigasi />
       </header>
-      <main className="isi">
+      <main id="isi-web" className="isi">
         <Outlet />
       </main>
-      <footer className="kaki">Ujian Tengah Semester Pengembangan Aplikasi Web</footer>
+      <footer id="kaki-web" className="kaki">Ujian Tengah Semester Pengembangan Aplikasi Web</footer>
     </div>
   )
 }

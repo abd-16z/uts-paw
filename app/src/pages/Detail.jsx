@@ -41,7 +41,7 @@ export default function Detail() {
         <button type="button" onClick={konfirmasiHapus}>
           Hapus
         </button>
-        <Link to="/koleksi">Kembali</Link>
+        <Link to="/koleksi" className="tombol-kembali">Kembali</Link>
       </div>
     </section>
   )

@@ -1,6 +1,7 @@
 export default function KotakPencarian({ nilai, onUbah }) {
   return (
     <input
+      id="kotak-cari"
       type="search"
       placeholder="Cari resep..."
       aria-label="Cari resep"
