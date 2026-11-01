@@ -3,6 +3,10 @@
   flex-direction: column;
   gap: 0.5rem;
   max-width: 480px;
+  background: #edebcd;
+  padding: 1.5rem;
+  border: 1px solid #d4cfa8;
+  border-radius: 8px;
 }
 
 .formulir label {

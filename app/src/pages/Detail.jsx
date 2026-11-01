@@ -38,7 +38,7 @@ export default function Detail() {
         <dd>{item.tingkatKesulitan}</dd>
       </dl>
       <div className="aksi">
-        <button type="button" onClick={konfirmasiHapus}>
+        <button type="button" className="tombol-hapus" onClick={konfirmasiHapus}>
           Hapus
         </button>
         <Link to="/koleksi" className="tombol-kembali">Kembali</Link>

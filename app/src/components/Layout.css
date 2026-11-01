@@ -47,6 +47,11 @@
   display: grid;
   grid-template-columns: max-content 1fr;
   gap: 0.25rem 1rem;
+   background: #edebcd;
+  border: 1px solid #d4cfa8;
+  border-radius: 16px;
+  padding: 1.25rem;
+  max-width: 480px;
 }
 
 .isi dt {
@@ -67,6 +72,7 @@
   padding: 1rem;
   border: 1px solid #8d7d7d;
   border-radius: 8px;
+  background: #edebcd;
 }
 
 .kartu h3 {

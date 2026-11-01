@@ -6,6 +6,10 @@
   width: 100%;
   max-width: 480px;
   border-collapse: collapse;
+  background: #ffffff;
+  border: 1px solid #d4cfa8;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .tabel-data th,

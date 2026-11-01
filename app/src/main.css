@@ -35,7 +35,7 @@ body {
 .menu a {
   display: inline-block;  
   padding: 0.35rem 0.85rem;
-  border-radius: 8px;
+  border-radius: 16px;
   color: #3e2d20;
   font-weight: 500;
   text-decoration: none;
@@ -46,12 +46,20 @@ body {
   color: #ffffff;
 }
 
+.menu a:hover {
+  background: #3a6331;
+  color: #ffffff;
+  text-decoration: none;
+}
 
 .tabel-data thead th {
   background: #eaf2e2;
   color: #2f4a2a;
 }
 
+.tabel-data tbody tr:nth-child(even) {
+  background: #edebcd;
+}
 
 a {
   color: #2f5d2a;
@@ -66,7 +74,7 @@ a:hover {
 
 .tombol {
   padding: 0.6rem 1.4rem;
-  border-radius: 8px;
+  border-radius: 16px;
   background: #4a7c3f;
   color: #ffffff;
   font-weight: 600;
@@ -80,7 +88,7 @@ a:hover {
 
 .tombol-kembali {
   padding: 0.6rem 1.4rem;
-  border-radius: 8px;
+  border-radius: 16px;
   background: #edebcd;
   color: #2f5d2a;
   font-weight: 600;
@@ -90,4 +98,18 @@ a:hover {
   background: #dcd6b3;
   color: #2f5d2a;
   text-decoration: none;
+}
+.tombol-hapus {
+  padding: 0.6rem 1.4rem;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background: #c0392b;
+  color: #ffffff;
+}
+
+.tombol-hapus:hover {
+  background: #992d22;
+  color: #ffffff;
 }
